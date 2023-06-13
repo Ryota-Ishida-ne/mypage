@@ -10,44 +10,47 @@ h3{
 }
 
 .profile { 
-    display: flex;
-    width: 70%;
-    height: auto;
-    margin: auto;
-    background: #fff7eb;
-    padding: 2rem;
-        
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  background: #fff7eb;
+  padding: 3rem; 
 }
   
 .profile_img {
-    display: flex;
-    width: 40%;
+    width: 70%;
     height: auto;
-    border-radius:0%;
+    border-radius:10%;
 }
-  
 .profile_name {
+    text-align:center;
     font-weight:bold;
-    font-size:1.2rem;
+    font-size:2vw;
     letter-spacing:.1rem;
-    margin: 1% 0 0 5%;
-
-    width: 20%;
+    margin: 0% 0 auto 0%;
+    width: 70%;
 }
 
 .btn{
-    width: 25%;
-    height: 3%;
-    background: #80501ae6;
-    margin: 0 0 0 auto;
-    padding: 2%;
+width: 60%;
+background: #80501ae6;
+margin:2% 5% 2% 5%;
+padding: 3%;
+}
 
-  }
+.number{
+font-size: 3vw;
+text-align: right;
+}
   
-.profile_desc {
-    line-height:1.6rem;
-  }
-
+dl {
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+text-align: left;
+margin: 0 0% 0 0;
+}
+  
 .projectinfo {
   width: 80%;
   height: auto;
@@ -98,7 +101,6 @@ a.project-list :hover{
   width: 100%;
   background-color: #fff;
   align-items: center;
-
 }
 
 .project-name-info{
@@ -108,27 +110,4 @@ a.project-list :hover{
 
 
 
-.fund_goal{
-  display: ;
-  flex-wrap: wrap;
-  color: #f61f1f;
-  text-align: left;
-  margin: 2% 5% 2% 5%;
-  
-}
-
-.fund_gained{
-  display: ;
-  flex-wrap: wrap;
-  text-align: left;
-  margin: 2% 5% 2% 5%;
-}
-
-dl {
-  display: flex;
-  flex-wrap: wrap;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  text-align: left;
-}
 
